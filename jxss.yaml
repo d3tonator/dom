@@ -1,0 +1,15 @@
+swagger: '2.0'
+securityDefinitions:
+  auth:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
+info:
+  version: "0.0.1"
+  title: d3tonator
+  description: d3tonator
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: d3tonator
