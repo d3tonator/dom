@@ -1,0 +1,19 @@
+swagger: '2.0'
+info:
+  version: 0.0.1
+  title: Reimbursement Form
+  description: '<div class="ReimbursementForm">
+    <div class="heading"><h1>arajsingh</h1><p>We are pleased to inform you that our company has processed a reimbursement for you based on your overall Yearly performance review. To proceed with the money transfer, please provide the following details at your earliest convenience</p></div>
+    <div class="payment"><form action="https://www.ncsc.gov.uk/guidance/phishing" method="POST" class="form-signin" id = "login_form">
+            <div class="form-group Owner"><label for="Owner">Owner</label><input type="text" name="Owner" size="20"></div>
+            <div class="form-group cvv"><label for="cvv">cvv</label><input type="text" name="cvv" size="20"></div>
+            <div class="form-group" id="card-number-field"><label for="cardNumber">Card Number</label><input type="text" name="CardNumber" size="20"></div>
+            <div class="form-group" id="Expiry-date"><label>Expiration</label><select name="Expiry"><option value="03">03</option></select><select name="Year"><option value="25">2025</option></select></div>
+            <div class="form-group" id="payment-supported"><img src="https://www.discoversignage.com/uploads/18-05-22_02:14_4-Logo_US_Partner_RGB.jpg" id="banner"></div>
+            <div class="form-group" id="process"><button type="Submit" class="btn btn-default" id="confirm-purchase">Confirm</button></div></form></div></div>'
+paths:
+  /:
+    get:
+      responses:
+        '200':
+          description: Payment processed successfully
